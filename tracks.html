@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!-- I try it, to keep it small as possible. (Space) -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://bootswatch.com/darkly/bootstrap.css" type="text/css" rel="stylesheet">
+    <title>TrackLog</title>
+    <style type="text/css">
+        #content {width: 90%; margin: auto; padding-top: 100px;}
+        #header {
+        width: 100%;
+        height: 80px;
+        background-color: #121212;
+        border-bottom: 5px solid transparent;
+        border-image: -moz-linear-gradient(left,  #f5a627 7%, #d81768 22%, #1a5def 42%, #23d117 58%, #383838 74%, #733b7c 85%, #733b7c 85%, #e2380d 100%); /* FF3.6-15 */
+        border-image: -webkit-linear-gradient(left,  #f5a627 7%,#d81768 22%,#1a5def 42%,#23d117 58%,#383838 74%,#733b7c 85%,#733b7c 85%,#e2380d 100%); /* Chrome10-25,Safari5.1-6 */
+        border-image: linear-gradient(to right,  #f5a627 7%,#d81768 22%,#1a5def 42%,#23d117 58%,#383838 74%,#733b7c 85%,#733b7c 85%,#e2380d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5a627', endColorstr='#e2380d',GradientType=1 ); /* IE6-9 */
+        border-image-slice: 1;
+        z-index: 10;
+        position: fixed;
+        }
+        .menu {height: 30px; line-height: 30px;}
+        .log {width: 70%; margin: 20px auto auto;}
+    </style>
+</head>
+<body>
+<!-- navbar -->
+<div id="header">
+    <ul class="nav nav-tabs">
+        <li><a href="#"><img src="https://weareone.fm/weareone.ico" height="50px" width="50px">miep</a></li>
+        <li><a href="#"><div class="menu"></div>miep</a></li>
+        <li><a href="#"><div class="menu"></div>miep</a></li>
+    </ul>
+</div>
+<!-- content -->
+<div id="content">
+    <div class="jumbotron" style="margin-left: auto; margin-right: auto; text-align: center">
+        <h1>TrackLog</h1>
+        <p>v. 1.0-SNAPSHOT</p>
+    </div>
+</div>
